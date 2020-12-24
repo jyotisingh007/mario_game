@@ -122,7 +122,7 @@ function draw() {
     gameOver.visible = true;
     restart.visible = true;
     restart.depth= brick.depth +1;
-    
+    mario.velocityY=0;
     ground.velocityX =0 ;
     mario.velocityX = 0;
     
